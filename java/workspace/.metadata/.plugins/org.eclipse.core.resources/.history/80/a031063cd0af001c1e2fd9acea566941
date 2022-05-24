@@ -1,0 +1,28 @@
+package test2;
+
+public class calc {
+	private String stringValue;
+	
+	public void setStringValue(string stringValue) {
+		this.stringValue = stringValue;
+	}
+	
+	public String getStringValue() {
+		return this.stringValue;
+		
+	}
+	
+	public Calc(String stringValue) {
+		this.stringValue = stringValue;
+	}
+	
+	public int sum(int num1, int num2) {
+		return num1 + num2;
+	}
+	 public int minus (int num1, int num2) {
+		 return num1 - num2;
+	 }
+	
+	
+
+}

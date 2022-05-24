@@ -1,0 +1,14 @@
+package test2;
+
+public class Robot extends Main01{
+
+	public void dance() {
+		System.out.println("춤을 춥니다.");
+	}
+	public void draw() {
+		System.out.println("그림을 그립니다.");
+	}
+	public void sing() {
+		System.out.println("노래를 합니다.");
+	}
+}
